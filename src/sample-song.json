@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "title": "ベース練習フレーズ",
+  "bpm": 92,
+  "timeSignature": { "numerator": 4, "denominator": 4 },
+  "ticksPerQuarter": 480,
+  "tuning": ["E1", "A1", "D2", "G2"],
+  "events": [
+    { "type": "note", "measure": 1, "startTick": 0, "durationTicks": 480, "string": 1, "fret": 0 },
+    { "type": "note", "measure": 1, "startTick": 480, "durationTicks": 160, "string": 1, "fret": 3 },
+    { "type": "note", "measure": 1, "startTick": 640, "durationTicks": 160, "string": 2, "fret": 0 },
+    { "type": "note", "measure": 1, "startTick": 800, "durationTicks": 160, "string": 2, "fret": 2 },
+    { "type": "rest", "measure": 1, "startTick": 960, "durationTicks": 480 },
+    { "type": "note", "measure": 1, "startTick": 1440, "durationTicks": 480, "string": 2, "fret": 7 },
+    { "type": "note", "measure": 1, "startTick": 1440, "durationTicks": 480, "string": 3, "fret": 9 },
+    { "type": "note", "measure": 2, "startTick": 1920, "durationTicks": 480, "string": 3, "fret": 9, "tieFromPrevious": true },
+    { "type": "note", "measure": 2, "startTick": 2400, "durationTicks": 480, "string": 4, "fret": 12 },
+    { "type": "note", "measure": 2, "startTick": 2880, "durationTicks": 960, "string": 4, "fret": 24 }
+  ]
+}
